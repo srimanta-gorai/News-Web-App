@@ -1,10 +1,10 @@
 const API_KEY = "cccf54d319934db2bb8b035838d21711";
-const url = "https://newsapi.org/v2/everything?q=";
+const url = "https://mocki.io/v1/f6a17f79-15bb-460d-b868-883be54aceea";
 
 window.addEventListener("load", () => fetchNews("Technology"));
 
 async function fetchNews(query) {
-    const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+    const res = await fetch(`${url}`);
     const data = await res.json();
     bindData(data.articles);
 }
