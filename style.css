@@ -151,3 +151,10 @@ main {
 .news-source {
     margin-block: 12px;
 }
+
+.nav-item.active {
+    color: #ff5252;
+    border-bottom: 2px solid #ff5252;
+    transition: 0.3s ease;
+}
+
