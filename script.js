@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
 
 // Fetch news function
 async function fetchNews(query) {
-    const loader = document.getElementById("loader");
+    const loader = document.getElementById("loading");
     loader.style.display = "block"; // show loader
 
     const news_url = urls[query.toLowerCase()] || urls["india"];
