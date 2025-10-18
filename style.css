@@ -151,3 +151,31 @@ main {
 .news-source {
     margin-block: 12px;
 }
+
+.nav-item.active {
+    color: #ff5252;
+    border-bottom: 2px solid #ff5252;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+
+#loading {
+    display: none; /* hidden by default */
+    position: fixed; /* fixed to viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* full viewport width */
+    height: 100vh; /* full viewport height */
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent gray */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 9999;
+
+    display: flex; /* center content */
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+    text-align: center;
+}
+
