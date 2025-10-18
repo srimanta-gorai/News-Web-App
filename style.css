@@ -160,6 +160,7 @@ main {
 }
 
 
+/* Full-screen overlay for loading */
 #loading {
     display: none; /* hidden by default */
     position: fixed; /* fixed to viewport */
@@ -176,6 +177,5 @@ main {
     display: flex; /* center content */
     justify-content: center; /* horizontal center */
     align-items: center; /* vertical center */
-    text-align: center;
+    text-align: center;
 }
-
